@@ -1,4 +1,4 @@
-// Struktur: for (inisialisai; kondisi; update)
+// Struktur: for (inisialisasi; kondisi; update)
 console.log('=== For Loop: Hitung 1 sampai 5 ===');
 for (let i = 1; i <= 5; i++){
     console.log(`Iterasi ke-${i}`);
@@ -15,7 +15,7 @@ console.log('Selesai!');
 
 console.log('\n===Bilangan Genap antara 1 - 20 ===');
 for (let i = 1; i <= 20; i++){
-    if (i % 2 === 0) { 
+    if (i % 2 === 0) { // jika i habis dibagi 2 (sisa = 0), maka genap
     process.stdout.write(i + '');
     }
 }
@@ -36,6 +36,7 @@ for (let i = 1; i <= 10; i++){
 
 }
 
+console.log(''); 
 console.log("--Latihan3--");
 console.log("---Segitiga Bintang---");
 

@@ -15,7 +15,7 @@ if (nilaiUjian >= 90) {
     console.log('Grade: E (Tidak Lulus)');
 }
 
-let namaHari = 'Rabu';
+let namaHari = 'Senin';
 
 console.log('\n=== Cek Jenis Hari ===');
 switch (namaHari) {
@@ -28,6 +28,9 @@ switch (namaHari) {
          break;
     case 'Sabtu':
     case 'Minggu':
+        console.log(`${namaHari} adalah akhir pekan.`);
+         break;
+    default:
         console.log('Nama hari tidak dikenali.');
 
 }
@@ -59,7 +62,6 @@ if (bulan === 12 || bulan === 1 || bulan === 2) {
 }
 
 console.log(`Bulan ${bulan} adalah musim: ${musim}`);
-
 
 const adaAwan = true;
 const adaAngin = false;

@@ -1,13 +1,15 @@
 let namaMahasiswa = 'Ahmad Fauzi';
 let programStudi = "Teknik Informatika";
 
-let perkenalan = 'Halo! Nama saya ${namaMahasiswa} dari ${programStudi}.';
+let perkenalan = `Halo! Nama saya ${namaMahasiswa} dari ${programStudi}.`;
 console.log(perkenalan);
 console.log('Panjang nama:', namaMahasiswa.length);
 
 let nilaiUjian = 87;
 let ipk        = 3.75;
 let suhuKulkas = -4;
+
+console.log(nilaiUjian + ipk);
 
 console.log('Nilai Ujian:', nilaiUjian);
 console.log('IPK :', ipk);
