@@ -64,3 +64,4 @@ console.log("\n--- Daftar Lengkap dengan Grade ---");
 dataFinal.forEach((mhs, index) => {
   console.log(`${index + 1}. Nama: ${mhs.nama.padEnd(8)} | Nilai: ${mhs.nilai} | Grade: ${mhs.grade}`);
 });
+

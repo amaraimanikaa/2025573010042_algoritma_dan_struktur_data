@@ -38,9 +38,9 @@ const sebagian = nilai.slice(1, 4);
 console.log('\nNilai asli :', nilai);
 console.log('Slice [1,4] :', sebagian);
 
+
 console.log('');
 console.log('=== Latihan3 ===');
-
 
 let daftarBelanja = ['Beras', 'Gula', 'Telur', 'Minyak', 'Garam'];
 

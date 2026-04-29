@@ -28,8 +28,8 @@ function cekPalindrom(str) {
 
 
 console.log("\n--- Uji Pangkat ---");
-console.log(`2 pangkat 3 = ${pangkat(2, 3)}`); // 8
-console.log(`5 pangkat 2 = ${pangkat(5, 2)}`); // 25
+console.log(`2 pangkat 3 = ${pangkat(2, 3)}`); 
+console.log(`5 pangkat 2 = ${pangkat(5, 2)}`); 
 
 console.log("\n--- Uji Balik String ---");
 console.log(`'halo' dibalik menjadi: '${balikString('halo')}'`);
