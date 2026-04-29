@@ -1,0 +1,21 @@
+{
+  "name": "2025573010042_algoritma_dan_struktur_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaraimanikaa/2025573010042_algoritma_dan_struktur_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/amaraimanikaa/2025573010042_algoritma_dan_struktur_data/issues"
+  },
+  "homepage": "https://github.com/amaraimanikaa/2025573010042_algoritma_dan_struktur_data#readme"
+}
